@@ -19,11 +19,14 @@ Nah, berdasarkan cakupan proyek tersebut, kita membutuhkan beberapa resource dan
 
 ### Persiapan
 
-Sumber data: ....
+Sumber data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
 
 Setup environment:
 ```
-
+a
+```
+```
+b
 ```
 
 ## Business Dashboard
