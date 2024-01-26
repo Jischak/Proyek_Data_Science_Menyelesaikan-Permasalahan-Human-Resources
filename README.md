@@ -5,35 +5,62 @@
 Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri sejak tahun 2000. Ia memiliki lebih dari 1000 karyawan yang tersebar di seluruh penjuru negeri. 
 
 ### Permasalahan Bisnis
-Sebagai perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan. </p>
+Sebagai perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan.
 Hal ini berimbas tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%.
 
 ### Cakupan Proyek
-<p>Untuk menjawab permasalahan bisnis tersebut, kita akan mengidentifikasi berbagai faktor yang mempengaruhi tingginya attrition rate. Nah, pada proyek ini kita akan membuat bussiness dashboard untuk membantu memonitori berbagai faktor tersebut. Tool yang digunakan untuk membuat bussiness dashboard adalah Looker Studio.
+<p>Untuk menjawab permasalahan bisnis tersebut, kita akan mengidentifikasi berbagai faktor yang mempengaruhi tingginya attrition rate. Nah, pada proyek ini kita akan membuat bussiness dashboard untuk membantu memonitori berbagai faktor tersebut. 
 </p>
+
 <p>Selain itu, kita akan menerapkan analisis klasifikasi untuk attrition dengan metode machine learning. Algoritma machine learning yang digunakan akan disesuaikan dengan keadaan dataset (akan ditentukan pada tahapan modeling). Kita juga akan melakukan sedikit proses Exploratory Data Analysis (EDA) untuk memperoleh gambaran terkait dataset yang akan kita gunakan. Pada prosesnya, kita juga akan coba melihat karakteristik dari setiap kelompok data (berdasarkan beberapa kolom kategoris) yang terdapat dalam dataset. 
 </p>
 
 Nah, berdasarkan cakupan proyek tersebut, kita membutuhkan beberapa resource dan tool, yaitu
 
-1. data karyawan di perusahaan (employee_data); 
-2. bahasa pemrograman Python sebagai tool utama kita dalam proyek ini
-3. berbagai library pendukung untuk pengolahan data dan pengembangan model machine learning.
-
-Nah, berdasarkan permasalahan bisnis di atas, kita akan membuat business dashboard untuk memonitori data attrition. Berikut beberapa pertanyaan yang akan kita cari jawabannya dalam proyek ini.
-- Bagaimana performa penjualan setiap bulannya?
-- Seberapa besar revenue yang dihasilkan per bulan?
-- Daerah mana yang menghasilkan revenue paling banyak?
-- Berapa jumlah pelanggan yang berbelanja setiap bulannya?
-- Berapa jumlah revenue yang dihasilkan dari setiap segmentasi pelanggan?
-- Berapa jumlah produk yang terjual setiap bulannya?
-- Berapa nilai Average Order Value (AOV) setiap bulannya?
-- Kategori produk yang paling banyak dibeli beserta keuntungannya?
-
+1. data karyawan di perusahaan (employee_data).
+2. Tool yang digunakan untuk membuat bussiness dashboard adalah Looker Studio.
+3. bahasa pemrograman Python sebagai tool utama kita dalam proyek ini.
+4. berbagai library pendukung untuk pengolahan data dan pengembangan model machine learning.
 
 ### Persiapan
 
 Sumber data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
+
+Konteks data:
+- EmployeeId - ID karyawan
+- Attrition - Apakah ada pengurangan karyawan? (0=tidak, 1=ya)
+- Age - Umur karyawan
+- BusinessTravel - Perjalanan Bisnis yang dilakukan untuk perkerjaan
+- DailyRate - Gaji Harian dari karyawan
+- Department - Department dimana karyawan bekerja
+- DistanceFromHome - Jarak dari tempat bekerja ke rumah (km)
+- Education - 1-Below College, 2-College, 3-Bachelor, 4-Master,5-Doctor
+- EducationField - Bidang pendidikan
+- EnvironmentSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
+- Gender - Jenis Kelamin
+- HourlyRate - Gaji per jam
+- JobInvolvement - 1-Low, 2-Medium, 3-High, 4-Very High
+- JobLevel - Level dari pekerjaan (1 sampai 5)
+- JobRole - Jabatan
+- JobSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
+- MaritalStatus - Status Pernikahan
+- MonthlyIncome - Pendapatan perbulan
+- MonthlyRate - Gaji perbulan
+- NumCompaniesWorked - Jumlah perusahaan tempat bekerja
+- Over18 - Umur diatas 18 Tahun?
+- OverTime - Lembur?
+- PercentSalaryHike - Persentase kenaikan gaji tahun lalu
+- PerformanceRating - 1-Low, 2-Good, 3-Excellent, 4-Outstanding
+- RelationshipSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
+- StandardHours - Jam Kerja Standar
+- StockOptionLevel - Tingkat Opsi Saham
+- TotalWorkingYears - Jumlah Total tahun bekerja
+- TrainingTimesLastYear - Jumlah pelatihan yang diikuti tahun lalu
+- WorkLifeBalance - 1-Low, 2-Good, 3-Excellent, 4-Outstanding
+- YearsAtCompany - Lama di Perusahaan (Tahun)
+- YearsInCurrentRole - Lama di posisi saat ini (Tahun)
+- YearsSinceLastPromotion - Tahun sejak promosi terakhir (Tahun)
+- YearsWithCurrManager - Lama bekerja dengan manajer saat ini (Tahun)
 
 Pada proyek ini, Anda dapat menggunakan berbagai IDE seperti Jupyter Notebook atau Google Colaboratory (Google Colab). Apabila, Anda menjalankan latihan ini melalui Jupyter Notebook, maka ikuti langkah setup environment dibawah ini:
 Setup environment menggunakan conda:
@@ -55,8 +82,34 @@ pip install numpy pandas matplotlib seaborn jupyter scikit-learn==1.2.2
 jupyter-notebook .
 ```
 
+
 ## Business Dashboard
+
+### Apa yang ingin diketahui?
+Dalam proyek ini, business dashboard yang dibuat untuk memonitori data attrition. Berikut beberapa pertanyaan yang akan kita cari jawabannya dalam proyek ini.
+- Berapa jumlah total karyawan hingga saat ini?
+- Berapa jumlah total karyawan yang keluar hingga saat ini? 
+- Berapa jarak (dari tempat tinggal ke kantor) yang memiliki kecenderungan untuk keluar dari perusahaan ?
+- Tahun ke berapa jumlah terbanyak karyawan yang ingin keluar karena tidak betah dengan manajer-nya yang terkini?
+- Berapa total tahun bekerja karyawan yang memiliki kecenderungan untuk keluar dari perusahaan?
+- Umur berapa karyawan yang memiliki kecenderungan yang paling banyak untuk keluar dari perusahaan?
+- Apa peran pekerjaan dengan presentase tertinggi untuk karyawan yang keluar?
+- Apa peran pekerjaan dengan presentase tertinggi untuk karyawan yang bertahan?
+- Berapa jumlah karyawan yang keluar ketika kurang (low) dilibatkan dalam pekerjaan?
+- Berapa jumlah karyawan yang keluar ketika sering (high) dilibatkan dalam pekerjaan?
+- Berapa presentase jumlah karyawan yang keluar dengan karyawan yang bertahan ketika kurang dilibatkan di perusahaan?
+- Berapa jumlah karyawan yang keluar ketika level pekerjaan rendah (1) ?
+- Berapa jumlah karyawan yang keluar ketika level pekerjaan tinggi (5)?
+- Berapa presentase jumlah karyawan yang keluar dengan karyawan yang bertahan ketika level pekerjaannya rendah (1)?
+
+### Bagaimana proses membuat business dashboard dalam proyek ini?
+Business dashboard menggunakan dataset yang telah melalui tahapan persiapan. Dataset tersebut di ekspor dalam format csv dari notebook.ipynb dan setelah itu di import ke dalam Looker Studio. 
+
+Link business dashboard: 
+
+### Deskripsi Business Dashboard
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+
 
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
