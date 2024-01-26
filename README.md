@@ -13,7 +13,9 @@ Hal ini berimbas tingginya attrition rate (rasio jumlah karyawan yang keluar den
 </p>
 <p>Selain itu, kita akan menerapkan analisis klasifikasi untuk attrition dengan metode machine learning. Algoritma machine learning yang digunakan akan disesuaikan dengan keadaan dataset (akan ditentukan pada tahapan modeling). Kita juga akan melakukan sedikit proses Exploratory Data Analysis (EDA) untuk memperoleh gambaran terkait dataset yang akan kita gunakan. Pada prosesnya, kita juga akan coba melihat karakteristik dari setiap kelompok data (berdasarkan beberapa kolom kategoris) yang terdapat dalam dataset. 
 </p>
+
 Nah, berdasarkan cakupan proyek tersebut, kita membutuhkan beberapa resource dan tool, yaitu
+
 1. data karyawan di perusahaan (employee_data); 
 2. bahasa pemrograman Python sebagai tool utama kita dalam proyek ini
 3. berbagai library pendukung untuk pengolahan data dan pengembangan model machine learning.
