@@ -87,54 +87,7 @@ jupyter-notebook .
 
 ### Apa yang ingin diketahui?
 Dalam proyek ini, business dashboard yang dibuat untuk memonitori data attrition. Berikut beberapa pertanyaan yang akan kita cari jawabannya dalam proyek ini.
-- Berapa jumlah total karyawan hingga saat ini?
-- Berapa jumlah karyawan yang keluar dan karyawan yang bertahan hingga saat ini? 
-- Berapa jarak (dari tempat tinggal ke kantor) yang memiliki kecenderungan untuk karyawan keluar dari perusahaan ?
-- Berapa lama tahun bekerja karyawan yang memiliki kecenderungan untuk keluar dari perusahaan?
-- Tahun ke berapa karyawan yang ingin keluar karena tidak betah dengan manajer-nya yang terkini?
-- Apa peran pekerjaan dengan presentase tertinggi untuk karyawan yang keluar?
-- Apa peran pekerjaan dengan presentase tertinggi untuk karyawan yang bertahan?
-- Umur berapa karyawan yang memiliki kecenderungan yang paling banyak untuk keluar dari perusahaan?
-- Berapa presentase karyawan yang keluar ketika kurang (low) dilibatkan dalam pekerjaan?
-- Berapa presentase karyawan yang bertahan ketika kurang (low) dilibatkan dalam pekerjaan?
-- Berapa presentase karyawan yang keluar ketika sering (high) dilibatkan dalam pekerjaan?
-- Berapa presentase karyawan yang bertahan ketika sering (high) dilibatkan dalam pekerjaan?
-- Berapa jumlah karyawan yang keluar ketika tingkat pekerjaan rendah (1) ?
-- Berapa jumlah karyawan yang bertahan ketika tingkat pekerjaan rendah (1) ?
-- Berapa jumlah karyawan yang keluar ketika tingkat pekerjaan tinggi (5)?
-- Berapa jumlah karyawan yang bertahan ketika tingkat pekerjaan tinggi (5)?
-- Berapa presentase karyawan yang keluar ketika tidak puas (low) dengan lingkungan kerja?
-- Berapa presentase karyawan yang bertahan ketika tidak puas (low) dengan lingkungan kerja?
-- Berapa presentase karyawan yang keluar ketika cukup puas (medium) dengan lingkungan kerja?
-- Berapa presentase karyawan yang bertahan ketika cukup puas (medium) dengan lingkungan kerja?
-- Berapa presentase karyawan yang keluar ketika puas (high) dengan lingkungan kerja?
-- Berapa presentase karyawan yang bertahan ketika puas (high) dengan lingkungan kerja?
-- Berapa presentase karyawan yang keluar ketika sangat puas (very high) dengan lingkungan kerja?
-- Berapa presentase karyawan yang bertahan ketika sangat puas (very high) dengan lingkungan kerja?
-- Berapa presentase karyawan yang keluar ketika tidak puas (low) dengan pekerjaan?
-- Berapa presentase karyawan yang bertahan ketika tidak puas (low) dengan pekerjaan?
-- Berapa presentase karyawan yang keluar ketika cukup puas (medium) dengan pekerjaan?
-- Berapa presentase karyawan yang bertahan ketika cukup puas (medium) dengan pekerjaan?
-- Berapa presentase karyawan yang keluar ketika puas (high) dengan pekerjaan?
-- Berapa presentase karyawan yang bertahan ketika puas (high) dengan pekerjaan?
-- Berapa presentase karyawan yang keluar ketika sangat puas (very high) dengan pekerjaan?
-- Berapa presentase karyawan yang bertahan ketika sangat puas (very high) dengan pekerjaan?
-- Berapa jumlah karyawan yang keluar ketika tingkat pefforma pekerjaan tinggi (high) ?
-- Berapa jumlah karyawan yang bertahan ketika tingkat performa pekerjaan sangat tinggi (very high) ?
-- Berapa jumlah karyawan yang keluar ketika tingkat pefforma pekerjaan tinggi (high)?
-- Berapa jumlah karyawan yang bertahan ketika tingkat performa pekerjaan sangat tinggi (very high)?
-- Berapa presentase karyawan yang keluar ketika tidak puas (low) dalam hubungan kerja?
-- Berapa presentase karyawan yang bertahan ketika tidak puas (low) dalam hubungan kerja?
-- Berapa presentase karyawan yang keluar ketika cukup puas (medium) dalam hubungan kerja?
-- Berapa presentase karyawan yang bertahan ketika cukup puas (medium) dalam hubungan kerja?
-- Berapa presentase karyawan yang keluar ketika puas (high) dalam hubungan kerja?
-- Berapa presentase karyawan yang bertahan ketika puas (high) dalam hubungan kerja?
-- Berapa presentase karyawan yang keluar ketika sangat puas (very high) dalam hubungan kerja?
-- Berapa presentase karyawan yang bertahan ketika sangat puas (very high) dalam hubungan kerja?
-- Berapa jumlah karyawan yang keluar ketika keseimbangan kehidupan kerja rendah (low) ?
-- Berapa jumlah karyawan yang bertahan ketika keseimbangan kehidupan kerja rendah (low) ?
-- Berapa jumlah karyawan yang keluar ketika keseimbangan kehidupan kerja luar biasa (outstanding)?
-- Berapa jumlah karyawan yang bertahan ketika keseimbangan kehidupan kerja luar biasa (outstanding)?
+Link Pertanyaan + Jawaban: https://docs.google.com/spreadsheets/d/1c_3Th8-2sbVCJe6vJvhG48uSjxX9n8ExNBIZqhRrZQY/edit?usp=sharing
 
 ### Bagaimana proses membuat business dashboard dalam proyek ini?
 Business dashboard menggunakan dataset yang telah melalui tahapan persiapan. Dataset tersebut di ekspor dalam format csv dari notebook.ipynb dan setelah itu di import ke dalam Looker Studio. Selain itu, pada looker studio ada penyesuaian dan modifikasi tipe data pada beberapa variabel. Disisi lain, terdapat juga penambahan dibuat penambahan beberapa variabel baru untuk kebutuhan visualisasi di dashboard.
