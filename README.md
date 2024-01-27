@@ -87,6 +87,7 @@ jupyter-notebook .
 
 ### Apa yang ingin diketahui?
 Dalam proyek ini, business dashboard yang dibuat untuk memonitori data attrition. Berikut beberapa pertanyaan yang akan kita cari jawabannya dalam proyek ini.
+
 Link Pertanyaan + Jawaban: https://docs.google.com/spreadsheets/d/1c_3Th8-2sbVCJe6vJvhG48uSjxX9n8ExNBIZqhRrZQY/edit?usp=sharing
 
 ### Bagaimana proses membuat business dashboard dalam proyek ini?
