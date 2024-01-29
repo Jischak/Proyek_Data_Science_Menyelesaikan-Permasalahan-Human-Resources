@@ -93,7 +93,7 @@ Link Pertanyaan + Jawaban: https://docs.google.com/spreadsheets/d/1c_3Th8-2sbVCJ
 ### Bagaimana proses membuat business dashboard dalam proyek ini?
 Business dashboard menggunakan dataset yang telah melalui tahapan persiapan. Dataset tersebut di ekspor dalam format csv dari notebook.ipynb dan setelah itu di import ke dalam Looker Studio. Selain itu, pada looker studio ada penyesuaian dan modifikasi tipe data pada beberapa variabel. Disisi lain, terdapat juga penambahan dibuat penambahan beberapa variabel baru untuk kebutuhan visualisasi di dashboard.
 
-Link business dashboard: https://lookerstudio.google.com/s/lxNWP8NJk4k
+Link business dashboard: https://lookerstudio.google.com/reporting/f96f16b9-6803-49ad-925e-1d2334a12917
 
 ### Deskripsi Business Dashboard
 
