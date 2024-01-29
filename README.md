@@ -97,8 +97,9 @@ Link business dashboard: https://lookerstudio.google.com/s/lxNWP8NJk4k
 
 ### Deskripsi Business Dashboard
 
-Dashboard Karyawan Jaya Jaya Maju - Attrition
+#### Dashboard Karyawan Jaya Jaya Maju - Attrition
 Business dashboard ini berisi visualisasi data dari variabel-variabel yang mempengaruhi attrition. Dimana, tampilan awal menunjukan keselurhan data. Namun, apabila kita ingin melihat data yang tegolong dalam attrition maka dapat dilakukan filter. Untuk data attrition, kita dapat memberi nilai 1 pada menu filter yang terdapat di bagian kanan atas. Sebaliknya, untuk yang data yang tidak tergolong attrition maka kita dapat memberi nilai 0.  
+
 ![dashboard attrition](https://github.com/Jischak/Proyek_Data_Science_Menyelesaikan-Permasalahan-Human-Resources/assets/52368239/de5c573d-3e0b-4c19-909a-3f38eaf34e45)
 
 
