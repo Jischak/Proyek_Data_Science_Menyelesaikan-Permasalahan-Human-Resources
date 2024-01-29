@@ -93,10 +93,15 @@ Link Pertanyaan + Jawaban: https://docs.google.com/spreadsheets/d/1c_3Th8-2sbVCJ
 ### Bagaimana proses membuat business dashboard dalam proyek ini?
 Business dashboard menggunakan dataset yang telah melalui tahapan persiapan. Dataset tersebut di ekspor dalam format csv dari notebook.ipynb dan setelah itu di import ke dalam Looker Studio. Selain itu, pada looker studio ada penyesuaian dan modifikasi tipe data pada beberapa variabel. Disisi lain, terdapat juga penambahan dibuat penambahan beberapa variabel baru untuk kebutuhan visualisasi di dashboard.
 
-Link business dashboard: https://lookerstudio.google.com/reporting/f96f16b9-6803-49ad-925e-1d2334a12917
+Link business dashboard: https://lookerstudio.google.com/s/lxNWP8NJk4k
 
 ### Deskripsi Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. 
+
+Dashboard Karyawan Jaya Jaya Maju - Attrition
+Business dashboard ini berisi visualisasi data dari variabel-variabel yang mempengaruhi attrition. Dimana, tampilan awal menunjukan keselurhan data. Namun, apabila kita ingin melihat data yang tegolong dalam attrition maka dapat dilakukan filter. Untuk data attrition, kita dapat memberi nilai 1 pada menu filter yang terdapat di bagian kanan atas. Sebaliknya, untuk yang data yang tidak tergolong attrition maka kita dapat memberi nilai 0.  
+![dashboard attrition](https://github.com/Jischak/Proyek_Data_Science_Menyelesaikan-Permasalahan-Human-Resources/assets/52368239/de5c573d-3e0b-4c19-909a-3f38eaf34e45)
+
+
 
 
 ## Menjalankan Sistem Machine Learning
