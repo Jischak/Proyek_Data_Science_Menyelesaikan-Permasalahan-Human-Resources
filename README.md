@@ -88,12 +88,18 @@ jupyter-notebook .
 ### Apa yang ingin diketahui?
 Dalam proyek ini, business dashboard yang dibuat untuk memonitori data attrition. Berikut beberapa pertanyaan yang akan kita cari jawabannya dalam proyek ini.
 
-Link Pertanyaan + Jawaban: https://docs.google.com/spreadsheets/d/1c_3Th8-2sbVCJe6vJvhG48uSjxX9n8ExNBIZqhRrZQY/edit?usp=sharing
+Link Pertanyaan + Jawaban: 
+```
+https://docs.google.com/spreadsheets/d/1c_3Th8-2sbVCJe6vJvhG48uSjxX9n8ExNBIZqhRrZQY/edit?usp=sharing
+```
 
 ### Bagaimana proses membuat business dashboard dalam proyek ini?
 Business dashboard menggunakan dataset yang telah melalui tahapan persiapan. Dataset tersebut di ekspor dalam format csv dari notebook.ipynb dan setelah itu di import ke dalam Looker Studio. Selain itu, pada looker studio ada penyesuaian dan modifikasi tipe data pada beberapa variabel. Disisi lain, terdapat juga penambahan dibuat penambahan beberapa variabel baru untuk kebutuhan visualisasi di dashboard.
 
-Link business dashboard: https://lookerstudio.google.com/reporting/f96f16b9-6803-49ad-925e-1d2334a12917
+Link business dashboard: 
+```
+https://lookerstudio.google.com/reporting/f96f16b9-6803-49ad-925e-1d2334a12917
+```
 
 ### Deskripsi Business Dashboard
 
@@ -106,8 +112,23 @@ Business dashboard ini berisi visualisasi data dari variabel-variabel yang mempe
 
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
+Berikut ini cara untuk menjalankan prototype Machine Learning untuk prediksi Attrition Karyawan di Jaya Jaya Maju.
+Prototype ini bisa dicoba baik secara lokal (offline) maupun online.
 
+### Bagaiamana mencoba prototype secara lokal?
+1. Buka terminal atau PowerShell
+2. Aktifkan virtual environment yang telah dibuat sebelumnya
+```
+conda activate employee-classification-project
+```
+3. Masuk ke lokasi dimana file streamlit (prediksi.py) berada
+4. Jalankan file streamlit dengan perintah berikut ini:
+```
+streamlit run prediksi.py
+```
+
+### Bagaiamana mencoba prototype secara online?
+Tentunya, mudah kok... kamu bisa mengakses melalui link dibawah ini:
 ```
 
 ```
