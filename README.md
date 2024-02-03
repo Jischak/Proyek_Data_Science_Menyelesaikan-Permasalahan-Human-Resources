@@ -27,60 +27,60 @@ Nah, berdasarkan cakupan proyek tersebut, kita membutuhkan beberapa resource dan
 Sumber data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
 
 Konteks data:
-- EmployeeId - ID karyawan
-- Attrition - Apakah ada pengurangan karyawan? (0=tidak, 1=ya)
-- Age - Umur karyawan
-- BusinessTravel - Perjalanan Bisnis yang dilakukan untuk perkerjaan
-- DailyRate - Gaji Harian dari karyawan
-- Department - Department dimana karyawan bekerja
-- DistanceFromHome - Jarak dari tempat bekerja ke rumah (km)
-- Education - 1-Below College, 2-College, 3-Bachelor, 4-Master,5-Doctor
-- EducationField - Bidang pendidikan
-- EnvironmentSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
-- Gender - Jenis Kelamin
-- HourlyRate - Gaji per jam
-- JobInvolvement - 1-Low, 2-Medium, 3-High, 4-Very High
-- JobLevel - Level dari pekerjaan (1 sampai 5)
-- JobRole - Jabatan
-- JobSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
-- MaritalStatus - Status Pernikahan
-- MonthlyIncome - Pendapatan perbulan
-- MonthlyRate - Gaji perbulan
-- NumCompaniesWorked - Jumlah perusahaan tempat bekerja
-- Over18 - Umur diatas 18 Tahun?
-- OverTime - Lembur?
-- PercentSalaryHike - Persentase kenaikan gaji tahun lalu
-- PerformanceRating - 1-Low, 2-Good, 3-Excellent, 4-Outstanding
-- RelationshipSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
-- StandardHours - Jam Kerja Standar
-- StockOptionLevel - Tingkat Opsi Saham
-- TotalWorkingYears - Jumlah Total tahun bekerja
-- TrainingTimesLastYear - Jumlah pelatihan yang diikuti tahun lalu
-- WorkLifeBalance - 1-Low, 2-Good, 3-Excellent, 4-Outstanding
-- YearsAtCompany - Lama di Perusahaan (Tahun)
-- YearsInCurrentRole - Lama di posisi saat ini (Tahun)
-- YearsSinceLastPromotion - Tahun sejak promosi terakhir (Tahun)
-- YearsWithCurrManager - Lama bekerja dengan manajer saat ini (Tahun)
+  - EmployeeId - ID karyawan
+  - Attrition - Apakah ada pengurangan karyawan? (0=tidak, 1=ya)
+  - Age - Umur karyawan
+  - BusinessTravel - Perjalanan Bisnis yang dilakukan untuk perkerjaan
+  - DailyRate - Gaji Harian dari karyawan
+  - Department - Department dimana karyawan bekerja
+  - DistanceFromHome - Jarak dari tempat bekerja ke rumah (km)
+  - Education - 1-Below College, 2-College, 3-Bachelor, 4-Master,5-Doctor
+  - EducationField - Bidang pendidikan
+  - EnvironmentSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
+  - Gender - Jenis Kelamin
+  - HourlyRate - Gaji per jam
+  - JobInvolvement - 1-Low, 2-Medium, 3-High, 4-Very High
+  - JobLevel - Level dari pekerjaan (1 sampai 5)
+  - JobRole - Jabatan
+  - JobSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
+  - MaritalStatus - Status Pernikahan
+  - MonthlyIncome - Pendapatan perbulan
+  - MonthlyRate - Gaji perbulan
+  - NumCompaniesWorked - Jumlah perusahaan tempat bekerja
+  - Over18 - Umur diatas 18 Tahun?
+  - OverTime - Lembur?
+  - PercentSalaryHike - Persentase kenaikan gaji tahun lalu
+  - PerformanceRating - 1-Low, 2-Good, 3-Excellent, 4-Outstanding
+  - RelationshipSatisfaction - 1-Low, 2-Medium, 3-High, 4-Very High
+  - StandardHours - Jam Kerja Standar
+  - StockOptionLevel - Tingkat Opsi Saham
+  - TotalWorkingYears - Jumlah Total tahun bekerja
+  - TrainingTimesLastYear - Jumlah pelatihan yang diikuti tahun lalu
+  - WorkLifeBalance - 1-Low, 2-Good, 3-Excellent, 4-Outstanding
+  - YearsAtCompany - Lama di Perusahaan (Tahun)
+  - YearsInCurrentRole - Lama di posisi saat ini (Tahun)
+  - YearsSinceLastPromotion - Tahun sejak promosi terakhir (Tahun)
+  - YearsWithCurrManager - Lama bekerja dengan manajer saat ini (Tahun)
 
 Pada proyek ini, Anda dapat menggunakan berbagai IDE seperti Jupyter Notebook atau Google Colaboratory (Google Colab). Apabila, Anda menjalankan latihan ini melalui Jupyter Notebook, maka ikuti langkah setup environment dibawah ini:
 Setup environment menggunakan conda:
 1. Buka terminal atau PowerShell
 2. Jalankan perintah berikut untuk membuat environment baru
-```
-conda create --name employee-classification-project python=3.9
-```
+  ```
+  conda create --name employee-classification-project python=3.9
+  ```
 3. Aktifkan virtual environment dengan menjalankan perintah berikut
-```
-conda activate employee-classification-project
-```
+  ```
+  conda activate employee-classification-project
+  ```
 4. Instal semua library yang dibutuhkan dengan perintah berikut.
-```
-pip install numpy pandas matplotlib seaborn jupyter scikit-learn==1.2.2
-```
+  ```
+  pip install numpy pandas matplotlib seaborn jupyter scikit-learn==1.2.2
+  ```
 5. Buka jupyter-notebook dengan menjalankan perintah berikut.
-```
-jupyter-notebook .
-```
+  ```
+  jupyter-notebook .
+  ```
 
 
 ## Business Dashboard
