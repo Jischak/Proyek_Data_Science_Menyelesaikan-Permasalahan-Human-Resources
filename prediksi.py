@@ -110,22 +110,25 @@ def main():
 
     # when 'Predict' is clicked, make the prediction and store it
     try:
-        if st.button("Prediksi Status Karyawan"): 
-            main_new_dataset = dataset_preprocessing(df) 
-            
-            result = predict_attrition(main_new_dataset)
+        if uploaded_files is not None:
+            try:
+                if st.button("Prediksi Status Karyawan"): 
+                    main_new_dataset = dataset_preprocessing(df) 
+                    
+                    result = predict_attrition(main_new_dataset)
 
-            result_dataset = result_attrition(df, result)
+                    result_dataset = result_attrition(df, result)
 
-            st.success(f"Hasil Prediksi Berhasil untuk {result_dataset.shape[0]} karyawan perusahaan Jaya Jaya Maju")
-            row_value_result_dataset = st.slider('Tampilkan Data Hasil Prediksi', 0, result_dataset.shape[0], result_dataset.shape[0])
-            result_dataset = result_dataset.iloc[:row_value_result_dataset]
-            st.dataframe(result_dataset)
-            
-    except ValueError:
-            st.error('Dataset Kosong!', icon="🔥")
-            st.error('Pastikan Dataset memiliki isi sebelum di prediksi', icon="🚨")
-        
+                    st.success(f"Hasil Prediksi Berhasil untuk {result_dataset.shape[0]} karyawan perusahaan Jaya Jaya Maju")
+                    row_value_result_dataset = st.slider('Tampilkan Data Hasil Prediksi', 0, result_dataset.shape[0], result_dataset.shape[0])
+                    result_dataset = result_dataset.iloc[:row_value_result_dataset]
+                    st.dataframe(result_dataset)
+                    
+            except ValueError:
+                    st.error('Dataset Kosong! Pastikan Dataset memiliki isi sebelum di prediksi', icon="🔥")
+                    
+    except UnboundLocalError:
+        st.error('Anda belum menginput dataset', icon="🚨")
 
         
 
