@@ -150,7 +150,7 @@ Berikut ini konklusi dari proyek ini:
   5. Berdasarkan peran pekerjaan karyawan yang keluar dari perusahaan terbanyak tergolong dalam peran pekerjaan sebagai Laboratory Technician dengan jumlah sebanyak 49 orang.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+Berikut ini beberapa rekomendasi action items yang harus dilakukan oleh perusahaan:
   1. Dalam perekrutan karyawan baru dapat disarankan untuk mengambil karyawan yang telah memiliki total lama bekerja selama 10 tahun.
   2. Memperbaiki lingkungan kerja dengan mencari alasan spesifiknya, seperti:
      - Apabila terkait fasilitas perusahaan dapat meninjau dan perbaiki kondisi fasilitas
