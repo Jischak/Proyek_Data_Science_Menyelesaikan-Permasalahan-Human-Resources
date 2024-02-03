@@ -62,7 +62,7 @@ Konteks data:
   - YearsSinceLastPromotion - Tahun sejak promosi terakhir (Tahun)
   - YearsWithCurrManager - Lama bekerja dengan manajer saat ini (Tahun)
 
-Pada proyek ini, Anda dapat menggunakan berbagai IDE seperti Jupyter Notebook atau Google Colaboratory (Google Colab). Apabila, Anda menjalankan latihan ini melalui Jupyter Notebook, maka ikuti langkah setup environment dibawah ini:
+Proyek ini dibuat melalaui Google Colaboratory (Google Colab). Namun Anda dapat menjalankan proyek ini juga melalui Jupyter Notebook, maka ikuti langkah setup environment dibawah ini:
 Setup environment menggunakan conda:
   1. Buka terminal atau PowerShell
   2. Jalankan perintah berikut untuk membuat environment baru
