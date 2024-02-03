@@ -64,20 +64,20 @@ Konteks data:
 
 Pada proyek ini, Anda dapat menggunakan berbagai IDE seperti Jupyter Notebook atau Google Colaboratory (Google Colab). Apabila, Anda menjalankan latihan ini melalui Jupyter Notebook, maka ikuti langkah setup environment dibawah ini:
 Setup environment menggunakan conda:
-1. Buka terminal atau PowerShell
-2. Jalankan perintah berikut untuk membuat environment baru
+  1. Buka terminal atau PowerShell
+  2. Jalankan perintah berikut untuk membuat environment baru
   ```
   conda create --name employee-classification-project python=3.9
   ```
-3. Aktifkan virtual environment dengan menjalankan perintah berikut
+  3. Aktifkan virtual environment dengan menjalankan perintah berikut
   ```
   conda activate employee-classification-project
   ```
-4. Instal semua library yang dibutuhkan dengan perintah berikut.
+  4. Instal semua library yang dibutuhkan dengan perintah berikut.
   ```
   pip install numpy pandas matplotlib seaborn jupyter scikit-learn==1.2.2
   ```
-5. Buka jupyter-notebook dengan menjalankan perintah berikut.
+  5. Buka jupyter-notebook dengan menjalankan perintah berikut.
   ```
   jupyter-notebook .
   ```
