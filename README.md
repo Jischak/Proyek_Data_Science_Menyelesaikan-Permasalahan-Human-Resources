@@ -137,17 +137,17 @@ Tentunya, mudah kok... kamu bisa mengakses melalui link dibawah ini:
 Berikut ini konklusi dari proyek ini:
   1. Jumlah karyawan yang keluar dari Perusahaan Jaya Jaya Maju adalah sebanyak 179 orang dari total 1058 karyawan atau apabila dipresentasekan sebanyak 16,9%.
   2. Beberapa faktor yang mempengaruhi karyawan untuk keluar dari perusahaan antara lain:
-    - Jarak tempat tinggal ke kantor: Karyawan yang memiliki jarak tempat tinggal ke kantor antara 0-5 Km dominan untuk keluar dari perusahaan, dimana pada kasus ini sebanyak 72 orang.
-    - Total Lama Bekerja: Karyawan yang memiliki total bekerja selama 10 tahun (0-10 tahun) cenderung lebih besar untuk keluar dari perusahaan dibanding total lama bekerja 10-20 tahun, 20-30 tahun, >40 tahun. Kontribusi-nya sebanyak 137 orang.
-    - Keterlibatan dalam Pekerjaan: Karyawan yang memiliki keterlibatan tinggi (high) dalam pekerjaan memiliki presentase untuk keluar dari perusahaan lebih tinggi (sebanyak 51,4%) dari pada yang keterlibatannya sedang (medium), rendah (low), dan sangat tinggi (very high).
+     - Jarak tempat tinggal ke kantor: Karyawan yang memiliki jarak tempat tinggal ke kantor antara 0-5 Km dominan untuk keluar dari perusahaan, dimana pada kasus ini sebanyak 72 orang.
+     - Total Lama Bekerja: Karyawan yang memiliki total bekerja selama 10 tahun (0-10 tahun) cenderung lebih besar untuk keluar dari perusahaan dibanding total lama bekerja 10-20 tahun, 20-30 tahun, >40 tahun. Kontribusi-nya sebanyak 137 orang.
+     - Keterlibatan dalam Pekerjaan: Karyawan yang memiliki keterlibatan tinggi (high) dalam pekerjaan memiliki presentase untuk keluar dari perusahaan lebih tinggi (sebanyak 51,4%) dari pada yang keterlibatannya sedang (medium), rendah (low), dan sangat tinggi (very high).
     - Tingkat Pekerjaan (rendah - tinggi / 1 - 5): Tingkat pekerjaan yang rendah memiliki kontribusi tertinggi untuk jumlah karyawan yang keluar dengan jumlah sebanyak 108 orang.
     - Kepuasan Lingkungan Kerja: Karyawan yang keluar cenderung memiliki kepuasan yang rendah (low) di lingkungan bekerjanya, dengan presentase sebanyak 31,8%.
     - Kepuasan Pekerjaan: Keryawan yang keluar cenderung memiliki kepuasan akan pekerjaannya yang tinggi (high), hal ini didukung dengan presentase sebanyak 34,6%.
     - Tingkat Performa: Jumlah karyawan yang keluar namun memiliki tingkat performa tinggi (151 orang) lebih banyak signifikan dibandingkan yang memiliki tingkat performa yang rendah (28 orang).
     - Kepuasan Hubungan Kerja: Karyawan yang keluar cederung memiliki kepuasan hubungan kerja yang sangat tinggi (very high) yaitu dengan presentase sebanyak 29,1%. Disisi lain, untuk karyawan dengan kepuasan hubungan kerja tinggi (high) dan rendah (low) memiliki presentase yang tidak berbeda jauh daripada kepusasan hubungan kerja yang sangat tinggi (very high) dengan masing-masing memiliki presentase 27,4% dan 25,7%.
     - Keseimbangan Kehidupan Kerja: Karyawan yang keluar didominasi oleh para karyawan yang memiliki keseimbangan kehidupan kerja yang sangat baik (excellent) dengan jumlah karyawan sebanyak 94 orang. Disisi lain, karyawan yang keluar dengan keseimbangan kehidupan kerja baik (good), luar biasa (outstanding), dan rendah (low) memiliki jumlah masing-masing adalah 45, 22, dan 18 orang.
-  3. Dari 179 orang yang keluar dari perusahaan, dominan memiliki umur 31 tahun. Hal ini didukung dengan jumlah karyawan yang keluar adalah sebanyak 14 orang.
-  4. Berdasarkan peran pekerjaan karyawan yang keluar dari perusahaan terbanyak tergolong dalam peran pekerjaan sebagai Laboratory Technician dengan jumlah sebanyak 49 orang.
+  4. Dari 179 orang yang keluar dari perusahaan, dominan memiliki umur 31 tahun. Hal ini didukung dengan jumlah karyawan yang keluar adalah sebanyak 14 orang.
+  5. Berdasarkan peran pekerjaan karyawan yang keluar dari perusahaan terbanyak tergolong dalam peran pekerjaan sebagai Laboratory Technician dengan jumlah sebanyak 49 orang.
 
 ### Rekomendasi Action Items
 Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
