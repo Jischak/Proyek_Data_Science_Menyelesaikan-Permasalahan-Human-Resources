@@ -90,7 +90,7 @@ Dalam proyek ini, business dashboard yang dibuat untuk memonitori data attrition
 
 Link Pertanyaan + Jawaban: 
 ```
-https://docs.google.com/spreadsheets/d/1c_3Th8-2sbVCJe6vJvhG48uSjxX9n8ExNBIZqhRrZQY/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1yPehiJPaGXvJkE0lcKWCbZ_x6Q9Nbfdvr7pveI_u7Ic/edit?usp=sharing
 ```
 
 ### Bagaimana proses membuat business dashboard dalam proyek ini?
