@@ -75,7 +75,7 @@ Setup environment menggunakan conda:
   ```
   4. Instal semua library yang dibutuhkan dengan perintah berikut.
   ```
-  pip install numpy pandas matplotlib seaborn jupyter scikit-learn==1.2.2
+  pip install numpy pandas matplotlib seaborn jupyter streamlit scikit-learn==1.2.2
   ```
   5. Buka jupyter-notebook dengan menjalankan perintah berikut.
   ```
